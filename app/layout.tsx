@@ -20,6 +20,9 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
+
+
   return (
     <html lang="en">
       <body className={`${FiraSans.variable} bg-light-body dark:bg-dark-body bg-no-repeat h-screen transition-colors duration-500 ease-in-out`}>
@@ -30,3 +33,5 @@ export default function RootLayout({
     </html>
   );
 }
+
+

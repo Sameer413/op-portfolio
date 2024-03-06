@@ -1,5 +1,3 @@
-'use client'
-import { usePathname } from "next/navigation";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Greeting from "./components/home/Greeting";
@@ -12,7 +10,9 @@ export default function Home() {
     <section>
 
       <Header />
+
       <Greeting />
+
       <Skills />
       <Footer />
 
