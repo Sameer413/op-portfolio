@@ -14,22 +14,18 @@ const greeting = {
     subTitle:
         "Full Stack Developer, Android Development Enthusiast. Always learning.",
     resumeLink:
-        "https://docs.google.com/document/d/1Mhtf6_5RRQlHvAEgM_ctp34TtJs_ZO-3qOKF9Zjj3MQ/edit?usp=sharing",
+        "",
     mail: "mailto:sameernimje29@outlook.com",
 };
 
 const socialMediaLinks = {
     /* Your Social Media Link */
-    github: "https://github.com/itznikhil",
+    github: "https://github.com/Sameer413",
     linkedin: "https://www.linkedin.com/in/nikhil-garg-9a56ba233/",
-    gmail: "nikhilgarg983@gmail.com",
-    gitlab: " ",
-    facebook: "https://www.facebook.com/co.nikhil.garg/",
-    tel: "Tel:+916396120175",
-    contactform:
-        "https://us9.list-manage.com/contact-form?u=3d3df8c91e9dce3b0897e2347&form_id=5685bf117664ef066f78acb001c0c4c8",
+    gmail: "sameernimje29@outlook.com",
+    // tel: "Tel:+916396120175",
     twitter: "https://twitter.com/NikhilG20623896",
-    instagram: "https://www.instagram.com/_garg_nikhil/",
+    instagram: "https://www.instagram.com/ig_sameernimje?igsh=MTZnd2xqYXNoN2hkbQ==",
 };
 
 const skills = {

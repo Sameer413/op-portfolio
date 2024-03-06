@@ -22,7 +22,7 @@ const Greeting = () => {
                         {/* Social Media */}
                         <SocailMedia />
 
-                        <button className="bg-light-accentBright hover:shadow-md hover:shadow-light-accentBright text-white px-4 py-3 my-5 rounded w-[200px] h-12 font-bold text-[17px] transition-all duration-200 ease-in-out">
+                        <button className="bg-light-accentBright hover:shadow-3xl hover:shadow-light-accentBright text-white px-4 py-3 my-5 rounded w-[200px] h-12 font-bold text-[17px] transition-all duration-200 ease-in-out">
                             Contact Me
                         </button>
                     </div>
