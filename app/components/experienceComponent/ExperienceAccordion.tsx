@@ -21,10 +21,10 @@ const ExperienceAccordion = () => {
                     {open && (
                         <div className="px-5 py-3 ">
                             {/* Content goes here */}
-                            <div className="border-light-accentColor border p-2 rounded-[5px] flex">
-                                <div className="w-[20%] p-3">
+                            <div className="border-light-accentColor border p-2 rounded-[5px] flex lg:flex-row flex-col justify-center">
+                                <div className="lg:w-[20%] p-3 flex justify-center">
                                     <Image
-                                        className=''
+                                        className='h-20 w-auto rotate-180'
                                         src={DegreeIcon}
                                         alt={''}
                                     />
@@ -32,20 +32,20 @@ const ExperienceAccordion = () => {
 
                                 {/* Card Details */}
                                 <div className="w-full">
-                                    <div className="flex justify-between">
+                                    <div className="flex lg:justify-between justify-center flex-col lg:flex-row">
                                         {/* Card Heading */}
-                                        <div className="">
+                                        <div className="flex lg:flex-row flex-col items-center">
                                             <div className='text-[17px] font-bold'>IT Developer</div>
-                                            <div className='text-base font-bold dark:text-dark-secondaryText text-light-secondaryText'>IT Developer</div>
+                                            <div className='text-base lg:font-bold font dark:text-dark-secondaryText text-light-secondaryText'>IT Developer</div>
                                         </div>
 
-                                        <div className="">
+                                        <div className="flex lg:flex-row flex-col items-center">
                                             <div className='text-base font-medium dark:text-dark-secondaryText text-light-secondaryText'>May 2023 - Ongoing</div>
                                             <div className='text-base font-medium dark:text-dark-secondaryText text-light-secondaryText'>Halifax, Nova Scotia</div>
                                         </div>
                                     </div>
 
-                                    <p className="mt-1">
+                                    <p className="mt-1 text-justify text-base">
                                         Canada Revenue Agency (CRA) administers tax laws for the Government of Canada and for most provinces and territories, and administers various social and economic benefit and incentive programs delivered through the tax system.
                                     </p>
                                 </div>

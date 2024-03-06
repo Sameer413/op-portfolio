@@ -34,18 +34,18 @@ const DegreeCard: React.FC<DegreeCardProps> = ({
 
             <div className="border-b border-l border-r rounded-[7px] border-light-accentColor dark:border-dark-accentColor w-full lg:w-[90%] m-2 shadow-sm shadow-light-accentColor dark:shadow-dark-accentColor transition-all duration-200 ease-in-out hover:shadow-md hover:text-white">
 
-                <div className="flex rounded-t-[7px] p-2 bg-light-accentColor dark:bg-dark-accentColor justify-between">
+                <div className="lg:flex rounded-t-[7px] p-2 bg-light-accentColor dark:bg-dark-accentColor justify-between">
                     <div className="">
                         <h2 className="text-white text-2xl ml-2 font-semibold">
                             {title}
                         </h2>
-                        <h3 className="text-white text-xl ml-2 my-2 font-semibold">
+                        <h3 className="text-white text-xl ml-2 lg:my-2 font-semibold">
                             {subtitle}
                         </h3>
                     </div>
 
-                    <div className="text-white text-2xl mr-2 font-semibold">
-                        <h3 className="">
+                    <div className="text-white text-xl lg:text-2xl mr-2 font-semibold">
+                        <h3 className="ml-2">
                             {duration}
                         </h3>
                     </div>
@@ -75,7 +75,7 @@ const EducationCard = () => {
     return (
         <div className='my-3'>
             <div>
-                <h1 className='text-4xl lg:text-[40px] leading-[1.1] font-bold text-center mt-8 mb-6'>
+                <h1 className='text-4xl lg:text-[40px] leading-[1.1] font-medium lg:font-bold text-center mt-8 mb-6'>
                     Degrees Received
                 </h1>
             </div>

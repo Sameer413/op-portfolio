@@ -29,14 +29,14 @@ const ProjectLanguages = ({ languages }: any) => {
 const ProjectCard = ({ name, description, languages }: { name: string, description: string, languages: any }) => {
     return (
         <div className="text-[rgb(88, 96, 105)] bg-[rgb(255, 255, 255)] shadow-projectCard p-5 cursor-pointer rounded-[5px] h-full transition-all duration-200 ease-in-out hover:shadow-light-imageDark dark:hover:shadow-dark-imageDark bg-light-projectCard dark:bg-dark-projectCard">
-            <p className="leading-[1.1] text-ellipsis text-[rgb(36, 41, 46)] mb-3 text-2xl font-bold -tracking-wider">
+            <p className="leading-[1.1] text-ellipsis text-[rgb(36, 41, 46)] mb-3 text-2xl font-semibold lg:font-bold -tracking-wider">
                 {name}
             </p>
             <p className="text-wrap text-left text-light-text dark:text-dark-text">
                 {description}
             </p>
 
-            <div className="flex ">
+            <div className="flex lg:flex-row flex-row-reverse">
                 <ProjectLanguages languages={languages} />
             </div>
 
@@ -60,20 +60,18 @@ const page = () => {
 
                         {/* Experience texts */}
                         <div className="flex-1 text-center">
-                            <h1 className="text-5xl lg:text-[56px] font-SansRegular font-bold mt-14 lg:mt-20 mb-9 leading-[1.1]">
+                            <h1 className="text-5xl lg:text-[56px] font-SansRegular font-semibold lg:font-bold mt-14 lg:mt-20 mb-9 leading-[1.1]">
                                 Projects
                             </h1>
-                            {/* <h3 className="text-3xl font-SansRegular my-4 font-medium text-light-text dark:text-dark-text">
-                                Work, Internship and Volunteership
-                            </h3> */}
-                            <p className="text-lg leading-[30px] font-medium text-light-secondaryText dark:text-dark-secondaryText">
+
+                            <p className="text-base lg:text-lg leading-5 lg:leading-[30px] font-medium text-light-secondaryText dark:text-dark-secondaryText">
                                 {"My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects. Below are some of my projects. Note that not all of the mentioned projects are on GitHub yet."}
                             </p>
                         </div>
                     </div>
 
                     {/* Project Cards */}
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-4 gap-y-6 mx-8 md:mx-12 lg:mx-20 mt-16">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-4 gap-y-6  mt-16">
                         {projects.data.map((item) => (
                             <ProjectCard
                                 key={item.id}

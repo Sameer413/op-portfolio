@@ -9,12 +9,13 @@ const Greeting = () => {
         <div className='w-full mt-8'>
             <div className="mx-auto lg:flex w-[90%] max-w-[1370px]">
                 <div className="flex-1 text-center lg:text-start">
-                    <div className="mt-[100px]">
-                        <h1 className='text-[70px] font-bold'>{greeting.title}</h1>
-                        <p className="text-3xl leading-10 font-SansRegular font-semibold text-light-secondaryText dark:text-dark-secondaryText mb-4">
+                    <div className="mt-12 lg:mt-[100px]">
+                        <h1 className='text-5xl mb-4 lg:text-[70px] font-bold'>{greeting.title}</h1>
+
+                        <p className="text-lg lg:text-3xl lg:leading-10 font-SansRegular font-semibold text-light-secondaryText dark:text-dark-secondaryText mb-4">
                             <span>{"I'm"} </span>
-                            <span className="text-light-accentColor dark:text-dark-accentColor">
-                                {greeting.full_name}.
+                            <span className="text-light-accentColor dark:text-dark-accentColor ">
+                                {greeting.full_name}.{" "}
                             </span>
                             {greeting.subTitle}
                         </p>

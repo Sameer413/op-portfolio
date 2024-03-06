@@ -64,7 +64,7 @@ const Header = () => {
             <div className='lg:flex md:flex items-center justify-between h-full max-w-[90%] md:max-w-[95%] mx-auto mt-2 lg:mt-1'>
                 <div className='flex items-center h-full justify-between'>
                     {/* Logo */}
-                    <Link href={'/'} className='px-2 text-[1.75rem] font-bold text-light-text dark:text-dark-text select-none'>
+                    <Link href={'/'} className='px-2 text-[1.5rem] lg:text-[1.75rem] font-bold text-light-text dark:text-dark-text select-none'>
                         Sameer.n()
                     </Link>
 
@@ -110,7 +110,8 @@ const Header = () => {
                                 href={'/'}
                                 className={`transition-all duration-200 ease-in-out 
                                             mx-1 my-2 px-5 py-2 rounded-[5px] block hover:shadow-md hover:text-white hover:bg-[#2ab0ee] hover:shadow-[#2ab0ee]
-                                             ${path === "/" ? 'font-bold' : ''}`}
+                                            ${path === "/" ? 'font-bold' : ''}`
+                                }
 
                             >
                                 {'Home'}
@@ -157,10 +158,6 @@ const Header = () => {
                                 {'Contact'}
                             </Link>
                         </li>
-
-
-
-
 
 
                         {/* Button Theme Toggle */}

@@ -21,13 +21,13 @@ const page: React.FC = () => {
 
                         {/* Education Intro */}
                         <div className="flex-1 text-center">
-                            <h1 className="text-[56px] font-SansRegular font-bold mt-14 lg:mt-20 mb-9 leading-[1.1]">
+                            <h1 className="text-5xl lg:text-[56px] font-SansRegular font-semibold lg:font-bold mt-14 lg:mt-20 mb-9 leading-[1.1]">
                                 Education
                             </h1>
-                            <h3 className="text-3xl font-SansRegular my-7 font-medium text-light-text dark:text-dark-text">
+                            <h3 className="text-2xl lg:text-3xl font-SansRegular my-7 font-medium text-light-text dark:text-dark-text">
                                 Basic Qualification and Certifications
                             </h3>
-                            <p className="text-lg leading-[30px] font-medium text-light-secondaryText dark:text-dark-secondaryText">
+                            <p className="text-base lg:text-lg leading-5 lg:leading-[30px] font-medium text-light-secondaryText dark:text-dark-secondaryText">
                                 I actively participate in hackathons and other tech-related activities. Below are some of my major certifications.
                             </p>
                         </div>

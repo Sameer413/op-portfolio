@@ -18,7 +18,7 @@ const SocailMedia: React.FC = () => {
             <a
                 className=''
                 target='_blank'
-                href={socialMediaLinks.github}
+                href={socialMediaLinks.linkedin}
             >
                 <TiSocialLinkedin className='rounded-[2.6rem] text-white inline-block h-[2.6rem] leading-10 mx-1 relative text-center w-10 mb-3 bg-[#0e76a8] transition-all duration-200 ease-in-out hover:text-white hover:shadow-3xl hover:shadow-[#0e76a8] p-[6px]' />
             </a>
@@ -26,7 +26,7 @@ const SocailMedia: React.FC = () => {
             <a
                 className=''
                 target='_blank'
-                href={socialMediaLinks.github}
+                href={socialMediaLinks.gmail}
             >
                 <FaGooglePlusG className='rounded-[2.6rem] text-white inline-block h-[2.6rem] leading-10 mx-1 relative text-center w-10 mb-3 bg-[#ea4335] transition-all duration-200 ease-in-out hover:text-white hover:shadow-3xl hover:shadow-[#ea4335] p-[6px]' />
             </a>
@@ -34,7 +34,7 @@ const SocailMedia: React.FC = () => {
             <a
                 className=''
                 target='_blank'
-                href={socialMediaLinks.github}
+                href={socialMediaLinks.instagram}
             >
                 <FaInstagram className='rounded-[2.6rem] text-white inline-block h-[2.6rem] leading-10 mx-1 relative text-center w-10 mb-3 bg-[#e4405f] transition-all duration-200 ease-in-out hover:text-white hover:shadow-3xl hover:shadow-[#e4405f] p-[6px]' />
             </a>

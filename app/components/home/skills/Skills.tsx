@@ -54,7 +54,7 @@ const Skills = () => {
                     <div className="flex-1 mb-10">
 
                         <div className="lg:ml-12">
-                            <h1 className="font-medium py-2 text-5xl text-center">Full Stack Development</h1>
+                            <h1 className="lg:font-medium py-2 px-2 lg:px-0 text-4xl lg:text-5xl text-center">Full Stack Development</h1>
 
                             {/* Skills Icons */}
                             <div className="flex flex-wrap gap-4 content-center justify-center">

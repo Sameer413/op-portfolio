@@ -21,8 +21,8 @@ const greeting = {
 const socialMediaLinks = {
     /* Your Social Media Link */
     github: "https://github.com/Sameer413",
-    linkedin: "https://www.linkedin.com/in/nikhil-garg-9a56ba233/",
-    gmail: "sameernimje29@outlook.com",
+    linkedin: "https://www.linkedin.com/in/sameer-nimje-0029b421b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    gmail: "mailto:sameernimje29@outlook.com",
     // tel: "Tel:+916396120175",
     twitter: "https://twitter.com/NikhilG20623896",
     instagram: "https://www.instagram.com/ig_sameernimje?igsh=MTZnd2xqYXNoN2hkbQ==",
