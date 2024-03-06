@@ -1,0 +1,35 @@
+.menu-icon {
+    cursor: pointer;
+    float: right;
+    position: relative;
+    user-select: none;
+}
+
+.navicon {
+    /* top: 5px; */
+    /* background-color: #fb1056; */
+    display: block;
+    height: 2px;
+    position: relative;
+    transition: background 0.2s ease-out;
+    width: 18px;
+}
+
+.navicon::before,
+.navicon::after {
+    background: #fb1056;
+    content: "";
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all 0.2s ease-out;
+    width: 100%;
+}
+
+.navicon::before {
+    /* top: 5px; */
+}
+
+.navicon::after {
+    /* top: -5px; */
+}
