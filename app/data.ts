@@ -356,160 +356,160 @@ const projects = {
                 },
             ],
         },
-        {
-            id: "1",
-            name: "Trackugo",
-            url:
-                "https://play.google.com/store/apps/details?id=com.trackyou&hl=en_IN&gl=US",
-            description: "Vechile Tracking System",
-            languages: [
-                {
-                    name: "Nodejs",
-                    reactIcon: FaNodeJs,
-                    color: "#339933",
+        // {
+        //     id: "1",
+        //     name: "Trackugo",
+        //     url:
+        //         "https://play.google.com/store/apps/details?id=com.trackyou&hl=en_IN&gl=US",
+        //     description: "Vechile Tracking System",
+        //     languages: [
+        //         {
+        //             name: "Nodejs",
+        //             reactIcon: FaNodeJs,
+        //             color: "#339933",
 
-                },
-                {
-                    name: "mongodb",
-                    reactIcon: DiMongodb,
-                    color: "#439743"
-                },
-                {
-                    name: "React Native",
-                    reactIcon: TbBrandReactNative,
-                    color: "#61DAFB",
+        //         },
+        //         {
+        //             name: "mongodb",
+        //             reactIcon: DiMongodb,
+        //             color: "#439743"
+        //         },
+        //         {
+        //             name: "React Native",
+        //             reactIcon: TbBrandReactNative,
+        //             color: "#61DAFB",
 
-                },
-            ],
-        },
-        {
-            id: "2",
-            name: "TaxisGreen",
-            url: "https://play.google.com/store/apps/details?id=com.taxis.green",
-            description: "Ultimate taxi app with admin panel (uber clone).",
-            languages: [
-                {
-                    name: "react",
-                    reactIcon: FaReact,
-                    color: '#61DAFB',
-                },
-                {
-                    name: "firebase",
-                    reactIcon: DiFirebase,
-                    color: '#0000FF'
-                },
-                {
-                    name: "stripe",
-                    reactIcon: SiRazorpay,
-                    color: "#318CF4",
-                },
-                // {
-                //     name: "expo",
-                //     reactIcon: "logos-expo",
-                // },
-                {
-                    name: "react native",
-                    reactIcon: TbBrandReactNative,
-                    color: "#61DAFB",
+        //         },
+        //     ],
+        // },
+        // {
+        //     id: "2",
+        //     name: "TaxisGreen",
+        //     url: "https://play.google.com/store/apps/details?id=com.taxis.green",
+        //     description: "Ultimate taxi app with admin panel (uber clone).",
+        //     languages: [
+        //         {
+        //             name: "react",
+        //             reactIcon: FaReact,
+        //             color: '#61DAFB',
+        //         },
+        //         {
+        //             name: "firebase",
+        //             reactIcon: DiFirebase,
+        //             color: '#0000FF'
+        //         },
+        //         {
+        //             name: "stripe",
+        //             reactIcon: SiRazorpay,
+        //             color: "#318CF4",
+        //         },
+        //         // {
+        //         //     name: "expo",
+        //         //     reactIcon: "logos-expo",
+        //         // },
+        //         {
+        //             name: "react native",
+        //             reactIcon: TbBrandReactNative,
+        //             color: "#61DAFB",
 
-                },
-            ],
-        },
-        {
-            id: "12",
-            name: "KPEXAM",
-            url: "https://kpexam.com",
-            description: "Online school.",
-            languages: [
-                {
-                    name: "nodejs",
-                    reactIcon: FaNodeJs,
-                    color: "#339933",
+        //         },
+        //     ],
+        // },
+        // {
+        //     id: "12",
+        //     name: "KPEXAM",
+        //     url: "https://kpexam.com",
+        //     description: "Online school.",
+        //     languages: [
+        //         {
+        //             name: "nodejs",
+        //             reactIcon: FaNodeJs,
+        //             color: "#339933",
 
-                },
+        //         },
 
-                {
-                    name: "ReactJS",
-                    reactIcon: FaReact,
-                    color: '#61DAFB',
-                },
-                {
-                    name: "mongodb",
-                    reactIcon: DiMongodb,
-                    color: "#439743"
-                },
-                {
-                    name: "react-query",
-                    reactIcon: SiReactquery,
-                    color: "#FF4154"
-                },
-                {
-                    name: "Chakra ui",
-                    reactIcon: SiChakraui,
-                    color: "#FFFFFF",
-                },
+        //         {
+        //             name: "ReactJS",
+        //             reactIcon: FaReact,
+        //             color: '#61DAFB',
+        //         },
+        //         {
+        //             name: "mongodb",
+        //             reactIcon: DiMongodb,
+        //             color: "#439743"
+        //         },
+        //         {
+        //             name: "react-query",
+        //             reactIcon: SiReactquery,
+        //             color: "#FF4154"
+        //         },
+        //         {
+        //             name: "Chakra ui",
+        //             reactIcon: SiChakraui,
+        //             color: "#FFFFFF",
+        //         },
 
-                {
-                    name: "typescript",
-                    reactIcon: SiTypescript,
-                    color: "#2D79C7"
-                },
-            ],
-        },
-        {
-            id: "13",
-            name: "Proshop",
-            url: "https://proshopapp983.herokuapp.com/",
-            description:
-                "Ecommerce Web-App with Payment Gateway and Admin Dashboard.",
-            languages: [
-                {
-                    name: "mongodb",
-                    reactIcon: DiMongodb,
-                    color: "#439743"
-                },
-                {
-                    name: "Nodejs",
-                    reactIcon: FaNodeJs,
-                    color: "#339933",
+        //         {
+        //             name: "typescript",
+        //             reactIcon: SiTypescript,
+        //             color: "#2D79C7"
+        //         },
+        //     ],
+        // },
+        // {
+        //     id: "13",
+        //     name: "Proshop",
+        //     url: "https://proshopapp983.herokuapp.com/",
+        //     description:
+        //         "Ecommerce Web-App with Payment Gateway and Admin Dashboard.",
+        //     languages: [
+        //         {
+        //             name: "mongodb",
+        //             reactIcon: DiMongodb,
+        //             color: "#439743"
+        //         },
+        //         {
+        //             name: "Nodejs",
+        //             reactIcon: FaNodeJs,
+        //             color: "#339933",
 
-                },
-                {
-                    name: "PayPal",
-                    reactIcon: SiRazorpay,
-                    color: "#318CF4",
-                },
-                {
-                    name: "React",
-                    reactIcon: FaReact,
-                    color: '#61DAFB',
-                },
-            ],
-        },
-        {
-            id: "3",
-            name: "Xperience Shopping",
-            url: "https://xperience-shopping-app.herokuapp.com/",
-            description: "get measurements By scanning body",
-            languages: [
-                {
-                    name: "React",
-                    reactIcon: FaReact,
-                    color: '#61DAFB',
-                },
-                {
-                    name: "Nodejs",
-                    reactIcon: FaNodeJs,
-                    color: "#339933",
+        //         },
+        //         {
+        //             name: "PayPal",
+        //             reactIcon: SiRazorpay,
+        //             color: "#318CF4",
+        //         },
+        //         {
+        //             name: "React",
+        //             reactIcon: FaReact,
+        //             color: '#61DAFB',
+        //         },
+        //     ],
+        // },
+        // {
+        //     id: "3",
+        //     name: "Xperience Shopping",
+        //     url: "https://xperience-shopping-app.herokuapp.com/",
+        //     description: "get measurements By scanning body",
+        //     languages: [
+        //         {
+        //             name: "React",
+        //             reactIcon: FaReact,
+        //             color: '#61DAFB',
+        //         },
+        //         {
+        //             name: "Nodejs",
+        //             reactIcon: FaNodeJs,
+        //             color: "#339933",
 
-                },
-                {
-                    name: "mongodb",
-                    reactIcon: DiMongodb,
-                    color: "#439743"
-                },
-            ],
-        },
+        //         },
+        //         {
+        //             name: "mongodb",
+        //             reactIcon: DiMongodb,
+        //             color: "#439743"
+        //         },
+        //     ],
+        // },
         // {
         //     id: "4",
         //     name: "Business factory nft swag",

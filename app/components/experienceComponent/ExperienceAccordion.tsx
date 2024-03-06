@@ -21,7 +21,7 @@ const ExperienceAccordion = () => {
                     {open && (
                         <div className="px-5 py-3 ">
                             {/* Content goes here */}
-                            <div className="border-light-accentColor border p-2 rounded-[5px] flex lg:flex-row flex-col justify-center">
+                            {/* <div className="border-light-accentColor border p-2 rounded-[5px] flex lg:flex-row flex-col justify-center">
                                 <div className="lg:w-[20%] p-3 flex justify-center">
                                     <Image
                                         className='h-20 w-auto rotate-180'
@@ -30,10 +30,10 @@ const ExperienceAccordion = () => {
                                     />
                                 </div>
 
-                                {/* Card Details */}
+                                Card Details
                                 <div className="w-full">
                                     <div className="flex lg:justify-between justify-center flex-col lg:flex-row">
-                                        {/* Card Heading */}
+                                        Card Heading
                                         <div className="flex lg:flex-row flex-col items-center">
                                             <div className='text-[17px] font-bold'>IT Developer</div>
                                             <div className='text-base lg:font-bold font dark:text-dark-secondaryText text-light-secondaryText'>IT Developer</div>
@@ -50,7 +50,7 @@ const ExperienceAccordion = () => {
                                     </p>
                                 </div>
 
-                            </div>
+                            </div> */}
 
 
                         </div>
