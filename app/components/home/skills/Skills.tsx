@@ -59,7 +59,7 @@ const Skills = () => {
                     <div className="flex-1 mb-5">
                         <motion.div
                             whileInView={{ opacity: 1, x: 0 }}
-                            initial={{ opacity: 0, x: -100 }}
+                            initial={{ opacity: 0, x: -70 }}
                             transition={{ duration: .70, ease: "easeInOut" }}
                             viewport={{ once: true, amount: 0.8 }}
                         >
