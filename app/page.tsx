@@ -12,8 +12,8 @@ export default function Home() {
       <Header />
 
       <Greeting />
-
       <Skills />
+
       <Footer />
 
     </section>

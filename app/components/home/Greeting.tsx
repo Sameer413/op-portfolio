@@ -5,17 +5,14 @@ import FeelingProud from './FeelingProud';
 import { greeting } from '@/app/data';
 import SocailMedia from './SocailMedia';
 
-
 const Greeting: React.FC = () => {
 
-
     return (
-
         <motion.div
             initial={{ opacity: 0, y: 100 }}
-            whileInView={{ opacity: 1, y: 0 }}
+            // whileInView={{ opacity: 1, y: 0 }}
+            animate={{ opacity: 1, y: 0 }}
             transition={{ duration: .75, ease: "easeInOut" }}
-            viewport={{ once: true, amount: 0.8 }}
         >
             <div className='w-full mt-8'>
 
@@ -46,7 +43,6 @@ const Greeting: React.FC = () => {
                 </div>
             </div>
         </motion.div>
-
     )
 }
 

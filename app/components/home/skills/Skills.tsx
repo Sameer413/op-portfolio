@@ -35,8 +35,6 @@ import { IconType } from 'react-icons';
 
 const Skills = () => {
 
-
-
     return (
         <div className='w-full my-8'>
             <div className='mx-auto w-[90%] max-w-[1370px]'>

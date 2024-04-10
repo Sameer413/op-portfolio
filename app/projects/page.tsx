@@ -7,6 +7,7 @@ import ProjectImg from '../components/projectComponent/ProjectImg';
 import { projects } from '../data';
 import { FaReact, FaNodeJs, DiMongodb, TbBrandReactNative, IoLogoFirebase, SiRazorpay, SiReactquery, FaFigma, SiChakraui, SiTypescript } from '../components/home/skills/SkillIcons';
 import { IconType } from 'react-icons';
+import Link from 'next/link';
 
 const ProjectLanguages = ({ languages }: any) => {
     return (
@@ -27,21 +28,26 @@ const ProjectLanguages = ({ languages }: any) => {
     )
 }
 
-const ProjectCard = ({ name, description, languages }: { name: string, description: string, languages: any }) => {
+const ProjectCard = ({ name, description, languages, url }: { name: string, description: string, languages: any, url?: string }) => {
     return (
-        <div className="text-[rgb(88, 96, 105)] bg-[rgb(255, 255, 255)] shadow-projectCard p-5 cursor-pointer rounded-[5px] h-full transition-all duration-200 ease-in-out hover:shadow-light-imageDark dark:hover:shadow-dark-imageDark bg-light-projectCard dark:bg-dark-projectCard">
-            <p className="leading-[1.1] text-ellipsis text-[rgb(36, 41, 46)] mb-3 text-2xl font-semibold lg:font-bold -tracking-wider">
-                {name}
-            </p>
-            <p className="text-wrap text-left text-light-text dark:text-dark-text">
-                {description}
-            </p>
+        <Link
+            href={url || 'https://github.com/Sameer413'}
+            target='_blank'
+        >
+            <div className="text-[rgb(88, 96, 105)] bg-[rgb(255, 255, 255)] shadow-projectCard p-5 cursor-pointer rounded-[5px] h-full transition-all duration-200 ease-in-out hover:shadow-light-imageDark dark:hover:shadow-dark-imageDark bg-light-projectCard dark:bg-dark-projectCard">
+                <p className="leading-[1.1] text-ellipsis text-[rgb(36, 41, 46)] mb-3 text-2xl font-semibold lg:font-bold -tracking-wider">
+                    {name}
+                </p>
+                <p className="text-wrap text-left text-light-text dark:text-dark-text">
+                    {description}
+                </p>
 
-            <div className="flex lg:flex-row flex-row-reverse">
-                <ProjectLanguages languages={languages} />
+                <div className="flex lg:flex-row flex-row-reverse">
+                    <ProjectLanguages languages={languages} />
+                </div>
+
             </div>
-
-        </div>
+        </Link>
     )
 }
 
@@ -88,7 +94,7 @@ const page = () => {
                                 viewport={{ once: true, amount: 0.8 }}
                             >
                                 <ProjectCard
-
+                                    url={item.url}
                                     description={item.description}
                                     name={item.name}
                                     languages={item.languages}
@@ -99,7 +105,11 @@ const page = () => {
                 </div>
 
                 <div className="flex justify-center items-center mt-10 py-4">
-                    <button className='p-4 rounded bg-light-accentColor dark:bg-dark-accentColor hover:shadow-3xl hover:shadow-light-accentColor dark:shadow-dark-accentColor transition-all duration-200 ease-in-out font-bold text-base cursor-pointer text-white'>More Projects (Github)</button>
+                    <Link
+                        href={'https://github.com/Sameer413'}
+                        className='p-4 rounded bg-light-accentColor dark:bg-dark-accentColor hover:shadow-3xl hover:shadow-light-accentColor dark:shadow-dark-accentColor transition-all duration-200 ease-in-out font-bold text-base cursor-pointer text-white'>
+                        More Projects (Github)
+                    </Link>
                 </div>
             </div>
 

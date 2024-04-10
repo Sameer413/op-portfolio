@@ -356,6 +356,44 @@ const projects = {
                 },
             ],
         },
+        {
+            id: "1",
+            name: "LMS - Full Stack",
+            url: "https://github.com/Sameer413?tab=repositories",
+            description: "An LMS platform is a comprehensive online system designed for the creation, management, and delivery of educational content and training programs.",
+            languages: [
+                {
+                    name: "ReactJS",
+                    reactIcon: FaReact,
+                    color: '#61DAFB',
+                },
+                {
+                    name: "MongoDB",
+                    reactIcon: DiMongodb,
+                    color: '#439743',
+                },
+                {
+                    name: "NodeJs",
+                    reactIcon: FaNodeJs,
+                    color: '#339933',
+                },
+                {
+                    name: "ReactQuery",
+                    reactIcon: SiReactquery,
+                    color: '#FF4154',
+                },
+                {
+                    name: "TypeScript",
+                    reactIcon: SiTypescript,
+                    color: '#3178C6',
+                },
+                {
+                    name: "Razorpay",
+                    reactIcon: SiRazorpay,
+                    color: '#3977E6',
+                },
+            ],
+        },
         // {
         //     id: "1",
         //     name: "Trackugo",
