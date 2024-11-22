@@ -394,6 +394,44 @@ const projects = {
                 },
             ],
         },
+        {
+            id: "2",
+            name: "Food Delivery Backend",
+            url: "https://github.com/Sameer413/food_delivery_server",
+            description: "Developed a robust and scalable backend for a food delivery platform, featuring restaurant management, order processing, user authentication.",
+            languages: [
+                // {
+                //     name: "ReactJS",
+                //     reactIcon: FaReact,
+                //     color: '#61DAFB',
+                // },
+                {
+                    name: "Postegress",
+                    reactIcon: DiMongodb,
+                    color: '#439743',
+                },
+                {
+                    name: "NodeJs",
+                    reactIcon: FaNodeJs,
+                    color: '#339933',
+                },
+                // {
+                //     name: "ReactQuery",
+                //     reactIcon: SiReactquery,
+                //     color: '#FF4154',
+                // },
+                {
+                    name: "TypeScript",
+                    reactIcon: SiTypescript,
+                    color: '#3178C6',
+                },
+                {
+                    name: "Razorpay",
+                    reactIcon: SiRazorpay,
+                    color: '#3977E6',
+                },
+            ],
+        },
         // {
         //     id: "1",
         //     name: "Trackugo",
