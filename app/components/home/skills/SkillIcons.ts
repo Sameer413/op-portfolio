@@ -1,6 +1,6 @@
-import { FaHtml5, FaCss3, FaJava, FaReact, FaNodeJs, FaAndroid, FaBootstrap, FaGithub, FaGitAlt, FaFigma } from "react-icons/fa";
+import { FaHtml5, FaCss3, FaJava, FaReact, FaNodeJs, FaAndroid, FaBootstrap, FaGithub, FaGitAlt, FaFigma, FaPython } from "react-icons/fa";
 import { IoLogoJavascript, IoLogoFirebase } from "react-icons/io5";
-import { SiPhp, SiSupabase, SiTypescript, SiRazorpay, SiTailwindcss, SiReactquery, SiChakraui } from "react-icons/si";
+import { SiPhp, SiSupabase, SiTypescript, SiRazorpay, SiTailwindcss, SiReactquery, SiChakraui, SiFastapi } from "react-icons/si";
 import { BiLogoCPlusPlus, BiLogoPostgresql } from "react-icons/bi";
 import { TbBrandNextjs, TbBrandReactNative, TbBrandMysql, TbBrandRedux } from "react-icons/tb";
 import { DiMongodb } from "react-icons/di";
@@ -33,4 +33,6 @@ export {
     DiMongodb,
     BiLogoPostgresql,
     FaFigma,
+    FaPython,
+    SiFastapi
 }

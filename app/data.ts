@@ -1,6 +1,6 @@
-import { FaHtml5, FaCss3, FaJava, FaReact, FaNodeJs, FaAndroid, FaBootstrap, FaGithub, FaGitAlt, FaFigma } from "react-icons/fa";
+import { FaHtml5, FaCss3, FaJava, FaReact, FaNodeJs, FaAndroid, FaBootstrap, FaGithub, FaGitAlt, FaFigma, FaPython } from "react-icons/fa";
 import { IoLogoJavascript, IoLogoFirebase } from "react-icons/io5";
-import { SiPhp, SiSupabase, SiTypescript, SiRazorpay, SiTailwindcss, SiReactquery, SiChakraui } from "react-icons/si";
+import { SiPhp, SiSupabase, SiTypescript, SiRazorpay, SiTailwindcss, SiReactquery, SiChakraui, SiFastapi } from "react-icons/si";
 import { BiLogoCPlusPlus, BiLogoPostgresql } from "react-icons/bi";
 import { TbBrandNextjs, TbBrandReactNative, TbBrandMysql, TbBrandRedux } from "react-icons/tb";
 import { DiFirebase, DiMongodb } from "react-icons/di";
@@ -31,8 +31,8 @@ const socialMediaLinks = {
 const skills = {
     skillsDescription: [
         "⚡ Building responsive website front end using ReactJS",
-        "⚡ Developing mobile applications using Flutter, React Native and native Android",
-        "⚡ Creating application backend in Node, Express & Flask",
+        "⚡ Developing mobile applications using React Native",
+        "⚡ Creating application backend in Node, Express & FastAPI",
     ],
     softwareSkills: [
         {
@@ -217,7 +217,7 @@ const skills = {
             skillName: "PostgreSQL",
             reactIcon: BiLogoPostgresql,
             style: {
-                color: "#311C87",
+                color: "#336791",
             },
         },
         {
@@ -234,6 +234,21 @@ const skills = {
                 color: "#E94E32",
             },
         },
+        {
+            skillName: "Python",
+            reactIcon: FaPython,
+            style: {
+                color: '#3776AB'
+            },
+        },
+        {
+            skillName: "FastAPI",
+            reactIcon: SiFastapi,
+            style: {
+                color: '#05998B'
+            },
+        },
+
     ]
 }
 
@@ -407,8 +422,8 @@ const projects = {
                 // },
                 {
                     name: "Postegress",
-                    reactIcon: DiMongodb,
-                    color: '#439743',
+                    reactIcon: BiLogoPostgresql,
+                    color: '#336791',
                 },
                 {
                     name: "NodeJs",
@@ -429,6 +444,49 @@ const projects = {
                     name: "Razorpay",
                     reactIcon: SiRazorpay,
                     color: '#3977E6',
+                },
+            ],
+        },
+        {
+            id: "3",
+            name: "DineFlow Pos",
+            url: "https://github.com/Sameer413/dineFlowServer",
+            description: "Built a robust and scalable backend for a dineFlow POS platform using FastAPI, React, and PostgreSQL, featuring restaurant management, order processing, and user authentication.",
+            languages: [
+                {
+                    name: "ReactJS",
+                    reactIcon: FaReact,
+                    color: '#61DAFB',
+                },
+                {
+                    name: "Postegress",
+                    reactIcon: BiLogoPostgresql,
+                    color: '#336791',
+                },
+                {
+                    name: "ReactQuery",
+                    reactIcon: SiReactquery,
+                    color: '#FF4154',
+                },
+                {
+                    name: "TypeScript",
+                    reactIcon: SiTypescript,
+                    color: '#3178C6',
+                },
+                {
+                    skillName: "Python",
+                    reactIcon: FaPython,
+                    color: '#3776AB'
+                },
+                {
+                    skillName: "FastAPI",
+                    reactIcon: SiFastapi,
+                    color: '#05998B'
+                },
+                {
+                    name: "NodeJs",
+                    reactIcon: FaNodeJs,
+                    color: '#339933',
                 },
             ],
         },
