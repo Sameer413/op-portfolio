@@ -287,71 +287,76 @@ const experienceData = [
         title: "Work",
         experiences: [
             {
-                title: "App / Web Developer",
-                company: "Upwork",
-                company_url: "https://www.upwork.com/",
-                logo_path: "upwork.png",
-                duration: "June 2018 - Ongoing",
-                location: "Remote",
-                description: "Self Employed",
+                title: "Software Developer",
+                company: "Pentagon Global Solutions",
+                company_url: "",
+                logo_path: "",
+                duration: "Sept 2023 - Mar 2025",
+                location: "Chennai, Hybrid",
+                description: [
+                    "• Developed and maintained responsive, accessible UIs using React, TypeScript, and Tailwind CSS.",
+                    "• Designed scalable REST APIs in Node.js with Express and MongoDB.",
+                    " • Reduced page load time by 30% through performance optimizations, including lazy loading and code splitting.",
+                    "• Managed complex application state using Redux and middleware like Redux Thunk for handling asynchronous logic"
+                ],
                 color: "#2962FF",
             },
-            {
-                title: "Full Stack Developer",
-                company: "Code Symphony",
-                company_url:
-                    "https://www.upwork.com/o/companies/~018c7b6c9d5feb2c3f/",
-                logo_path: "codesymphony.jpg",
-                duration: "Mar 2022 - Ongoing",
-                location: "Ahmedabad",
-                description: "IT Services and IT Consulting.",
-                color: "#2962FF",
-            },
-            {
-                title: "Software Engineer",
-                company: "Northstar technologies",
-                company_url: "https://technorthstar.com/",
-                logo_path: "NS-1.png",
-                duration: "2022 - Ongoing",
-                location: "Ahmedabad",
-                description: "IT Services and IT Consulting.",
-                color: "#2962FF",
-            },
+            // {
+            //     title: "Full Stack Developer",
+            //     company: "Code Symphony",
+            //     company_url:
+            //         "https://www.upwork.com/o/companies/~018c7b6c9d5feb2c3f/",
+            //     logo_path: "codesymphony.jpg",
+            //     duration: "Mar 2022 - Ongoing",
+            //     location: "Ahmedabad",
+            //     description: "IT Services and IT Consulting.",
+            //     color: "#2962FF",
+            // },
+            // {
+            //     title: "Software Engineer",
+            //     company: "Northstar technologies",
+            //     company_url: "https://technorthstar.com/",
+            //     logo_path: "NS-1.png",
+            //     duration: "2022 - Ongoing",
+            //     location: "Ahmedabad",
+            //     description: "IT Services and IT Consulting.",
+            //     color: "#2962FF",
+            // },
         ],
     },
-    {
-        title: "Internships",
-        experiences: [
-            {
-                title: "Front-End Developer",
-                company: "Freshhut",
-                company_url: " ",
-                logo_path: "freshhut.jpg",
-                duration: "Summer of 2019",
-                location: "",
-                description: "Develop a ecommerce app using native Android and PHP.",
-                color: "#800000",
-            },
-        ],
-    },
-    {
-        title: "Volunteerships",
-        experiences: [
-            {
-                title: "Mentor - Technorthstar",
-                company: "Tech north star",
-                company_url: "https://technorthstar.com/",
-                logo_path: "NS-1.png",
-                duration: "22",
-                location: " ",
-                description:
-                    "Mentorship responsibilities were to help freshers plan the project, review issues and pull requests, ensure smooth progress and help them out when they are stuck.",
-                color: "#4285F4",
-            },
+    // {
+    //     title: "Internships",
+    //     experiences: [
+    //         {
+    //             title: "Front-End Developer",
+    //             company: "Freshhut",
+    //             company_url: " ",
+    //             logo_path: "freshhut.jpg",
+    //             duration: "Summer of 2019",
+    //             location: "",
+    //             description: "Develop a ecommerce app using native Android and PHP.",
+    //             color: "#800000",
+    //         },
+    //     ],
+    // },
+    // {
+    //     title: "Volunteerships",
+    //     experiences: [
+    //         {
+    //             title: "Mentor - Technorthstar",
+    //             company: "Tech north star",
+    //             company_url: "https://technorthstar.com/",
+    //             logo_path: "NS-1.png",
+    //             duration: "22",
+    //             location: " ",
+    //             description:
+    //                 "Mentorship responsibilities were to help freshers plan the project, review issues and pull requests, ensure smooth progress and help them out when they are stuck.",
+    //             color: "#4285F4",
+    //         },
 
 
-        ]
-    }
+    //     ]
+    // }
 ];
 
 
