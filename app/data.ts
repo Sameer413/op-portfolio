@@ -287,19 +287,19 @@ const experienceData = [
         title: "Work",
         experiences: [
             {
-                title: "Software Developer",
-                company: "Pentagon Global Solutions",
-                company_url: "",
-                logo_path: "",
-                duration: "Sept 2023 - Mar 2025",
-                location: "Chennai, Hybrid",
-                description: [
-                    "• Developed and maintained responsive, accessible UIs using React, TypeScript, and Tailwind CSS.",
-                    "• Designed scalable REST APIs in Node.js with Express and MongoDB.",
-                    " • Reduced page load time by 30% through performance optimizations, including lazy loading and code splitting.",
-                    "• Managed complex application state using Redux and middleware like Redux Thunk for handling asynchronous logic"
-                ],
-                color: "#2962FF",
+                // title: "Software Developer",
+                // company: "Pentagon Global Solutions",
+                // company_url: "",
+                // logo_path: "",
+                // duration: "Sept 2023 - Mar 2025",
+                // location: "Chennai, Hybrid",
+                // description: [
+                //     "• Developed and maintained responsive, accessible UIs using React, TypeScript, and Tailwind CSS.",
+                //     "• Designed scalable REST APIs in Node.js with Express and MongoDB.",
+                //     " • Reduced page load time by 30% through performance optimizations, including lazy loading and code splitting.",
+                //     "• Managed complex application state using Redux and middleware like Redux Thunk for handling asynchronous logic"
+                // ],
+                // color: "#2962FF",
             },
             // {
             //     title: "Full Stack Developer",
