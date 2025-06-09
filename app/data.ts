@@ -287,6 +287,16 @@ const experienceData = [
         title: "Work",
         experiences: [
             {
+                title: "r",
+                company: "",
+                company_url: "",
+                logo_path: "",
+                duration: "",
+                location: "",
+                description: [
+                   ""
+                ],
+                color: "#2962FF",
                 // title: "Software Developer",
                 // company: "Pentagon Global Solutions",
                 // company_url: "",
