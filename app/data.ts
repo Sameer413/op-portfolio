@@ -1,6 +1,6 @@
 import { FaHtml5, FaCss3, FaJava, FaReact, FaNodeJs, FaAndroid, FaBootstrap, FaGithub, FaGitAlt, FaFigma, FaPython } from "react-icons/fa";
 import { IoLogoJavascript, IoLogoFirebase } from "react-icons/io5";
-import { SiPhp, SiSupabase, SiTypescript, SiRazorpay, SiTailwindcss, SiReactquery, SiChakraui, SiFastapi } from "react-icons/si";
+import { SiPhp, SiSupabase, SiTypescript, SiRazorpay, SiTailwindcss, SiReactquery, SiChakraui, SiFastapi, SiSpringboot } from "react-icons/si";
 import { BiLogoCPlusPlus, BiLogoPostgresql } from "react-icons/bi";
 import { TbBrandNextjs, TbBrandReactNative, TbBrandMysql, TbBrandRedux } from "react-icons/tb";
 import { DiFirebase, DiMongodb } from "react-icons/di";
@@ -58,17 +58,17 @@ const skills = {
             },
         },
         {
-            skillName: "PHP",
-            reactIcon: SiPhp,
-            style: {
-                color: "#7377AD",
-            },
-        },
-        {
             skillName: "Java",
             reactIcon: FaJava,
             style: {
                 color: "#f89820",
+            },
+        },
+        {
+            skillName: "SpringBoot",
+            reactIcon: SiSpringboot,
+            style: {
+                color: "#6DB33F",
             },
         },
         {
@@ -287,14 +287,14 @@ const experienceData = [
         title: "Work",
         experiences: [
             {
-                title: "r",
+                title: "",
                 company: "",
                 company_url: "",
                 logo_path: "",
                 duration: "",
                 location: "",
                 description: [
-                   ""
+                    ""
                 ],
                 color: "#2962FF",
                 // title: "Software Developer",
