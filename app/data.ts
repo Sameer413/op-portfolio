@@ -376,7 +376,7 @@ const projects = {
         {
             id: "0",
             name: "opPortfolio",
-            url: "https://github.com/itznikhil/opPortfolio",
+            url: "https://github.com/Sameer413/op-portfolio",
             description: "(This) A clean and full customizable portfolio template.",
             languages: [
                 {
@@ -503,6 +503,30 @@ const projects = {
                     reactIcon: FaNodeJs,
                     color: '#339933',
                 },
+            ],
+        },
+        {
+            id: "4",
+            name: "Ecommerce",
+            url: "https://github.com/Sameer413/ecommerce-springboot",
+            description: "Built a robust and scalable backend for a Ecommerce platform using Java, SpringBoot, and PostgreSQL, featuring product management, order processing, and user authentication.",
+            languages: [
+                {
+                    name: "Postegress",
+                    reactIcon: BiLogoPostgresql,
+                    color: '#336791',
+                },
+                {
+                    name: "Java",
+                    reactIcon: FaJava,
+                    color: '##f89820',
+                },
+                {
+                    name: "SpringBoot",
+                    reactIcon: SiSpringboot,
+                    color: "#6DB33F",
+                },
+
             ],
         },
         // {

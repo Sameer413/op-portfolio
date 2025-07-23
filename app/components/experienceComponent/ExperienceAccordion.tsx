@@ -35,7 +35,7 @@ const ExperienceAccordion = () => {
             >
               {open === idx && (
                 <div className="px-5 py-3 space-y-4">
-                  {section.experiences.map((exp, index) => (
+                  {section.experiences.length > 1 && section.experiences.map((exp, index) => (
                     <div
                       key={index}
                       className="border-light-accentColor border p-4 rounded-[5px] flex lg:flex-row flex-col justify-center"
